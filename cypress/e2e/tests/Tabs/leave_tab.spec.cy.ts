@@ -8,7 +8,7 @@ const myLeavePage: MyLeavePage = new MyLeavePage();
 let loginData: any = {};
 let employeeData: any = {};
 
-describe("Leave Management Flow: ", () => {
+describe("Leave Management Floww: ", () => {
   beforeEach(() => {
     cy.visit("/");
     cy.fixture("loginInfo").then((logData: any) => {
